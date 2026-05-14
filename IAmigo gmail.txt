@@ -1,0 +1,4 @@
+O começo de IAmigo
+Conta:
+	Gmail: iamigo.assistente@gmail.com
+	Senha: Projeto Integrador
