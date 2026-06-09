@@ -1,1 +1,15 @@
-{"Alice": {"name": "Alice", "tasks": [{"description": "Comprar leite", "completed": true}]}}
+{
+    "Matheus": {
+        "preferencias": {
+            "estilo_instrucao": "direto"
+        },
+        "tarefas_diarias": [
+            {
+                "titulo": "Arrumar a Casa",
+                "concluida": false,
+                "passos": []
+            }
+        ],
+        "tarefas_educacionais": []
+    }
+}

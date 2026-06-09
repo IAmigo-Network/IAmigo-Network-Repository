@@ -3,10 +3,10 @@
 -- Execute este arquivo no MySQL Workbench antes de rodar o Python.
 -- ============================================================
 
-CREATE DATABASE IF NOT EXISTS tea_db
+CREATE DATABASE IF NOT EXISTS IAmigo
 CHARACTER SET utf8mb4
 COLLATE utf8mb4_unicode_ci;
-USE tea_db;
+USE IAmigo;
 
 -- Remove as tabelas antigas, caso você esteja recriando o banco.
 DROP TABLE IF EXISTS passos;

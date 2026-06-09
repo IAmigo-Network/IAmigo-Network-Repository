@@ -1,1 +1,15 @@
-[{"task": "Comprar leite", "completed": true}, {"task": "Estudar Python", "completed": false}]
+{
+    "Matheus": {
+        "preferencias": {
+            "estilo_instrucao": "direto"
+        },
+        "tarefas_diarias": [
+            {
+                "titulo": "Arrumar a Casa",
+                "concluida": false,
+                "passos": []
+            }
+        ],
+        "tarefas_educacionais": []
+    }
+}
