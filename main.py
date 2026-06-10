@@ -1,5 +1,3 @@
-#  Criar perfil.  Entrar com perfil.  Criar tarefa.  Marcar tarefa como concluída.  Fechar o sistema.  Abrir novamente e ver se os dados ficaram salvos. Se isso funcionou, você pode começar a personalizar.
-
 from data.data_manager import carregar_dados
 from ui.menus import criar_usuario_menu, painel_principal_menu
 from ui.utils import exibir_cabecalho
