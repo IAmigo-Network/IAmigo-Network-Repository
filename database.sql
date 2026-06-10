@@ -3,10 +3,10 @@
 -- Execute este arquivo no MySQL Workbench antes de rodar o Python.
 -- ============================================================
 
-CREATE DATABASE IF NOT EXISTS IAmigo
+CREATE DATABASE IF NOT EXISTS amasco07_iamigo
 CHARACTER SET utf8mb4
 COLLATE utf8mb4_unicode_ci;
-USE IAmigo;
+USE amasco07_iamigo;
 
 -- Remove as tabelas antigas, caso você esteja recriando o banco.
 DROP TABLE IF EXISTS passos;
