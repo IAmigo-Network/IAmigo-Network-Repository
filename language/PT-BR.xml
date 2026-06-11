@@ -1,0 +1,106 @@
+<IAmigo>
+    <main.py>
+        <exibir_titulo_subtitulo>
+            <subtitulo>Assistente para TDH</subtitulo>
+        </exibir_titulo_subtitulo>
+        
+        <opções_menu_principal>
+
+            <menu1>1. Já nos conhecemos?</menu1>
+            <menu2>2. (Pensar algo para por aqui)</menu2>
+            <menu3>3. Até logo!</menu3>
+            <input_msg>Escolha uma opção: </input_msg>
+            
+        </opções_menu_principal>
+
+        <menu1_fuc>
+
+            <opcoes_menu>
+                <menu1>1. Sim</menu1>
+                <menu2>2. Não</menu2>
+            </opcoes_menu>
+
+            <retorno>
+               <not_dados>Nenhum perfil salvo. Crie um primeiro! (Enter)</not_dados>
+               <perfis>Perfis: </perfis>
+               <eu_sou>Eu sou: </eu_sou>
+               <perfis_notfound>Perfil não encontrado! (Enter)</perfis_notfound>
+            </retorno>
+        
+        </menu1_fuc>
+
+        <menu3_fuc>Até logo!</menu3_fuc>
+    </main.py>
+
+    <ui.menus>
+        <criar_usuario_menu>
+            <exibir_cabecalho>CRIAR NOVO PERFIL</exibir_cabecalho>
+
+            <nome_usuario>
+                <input_msg>Digite o nome do usuário: </input_msg>
+                <not_nome_or_nome_in_dados>Nome inválido ou já existente. Pressione Enter.</not_nome_or_nome_in_dados>
+            </nome_usuario>
+
+            <preferencia_comunicacao>
+                <titulo>Preferências de Comunicação</titulo>
+
+                <opcoes_menu>
+                    <menu1>1. Passo a passo curto e direto (Recomendado para TPAC)</menu1>
+                    <menu2>2. Detalhado e explicativo</menu2>
+                    <input_msg>Opção: </input_msg>
+                </opcoes_menu>
+                
+                <return>Perfil [{nome}] criado! Pressione Enter.</return>
+            </preferencia_comunicacao>
+        </criar_usuario_menu>
+
+        <gerenciar_tarefas_menu>
+            <not_tarefas>[Nenhuma tarefa pendente.]</not_tarefas>
+            <menu>1. Criar Tarefa | 2. Alternar Status | 3. 🤖 Desmembrar com IA | 4. Voltar"</menu>
+            <input_msg>Escolha uma opção: </input_msg>
+
+            <menu1_fuc>
+                <input_msg>Nome da tarefa: </input_msg>
+            </menu1_fuc>
+
+            <menu2_fuc>
+                <input_msg>Número da tarefa: </input_msg>
+            </menu2_fuc>
+
+            <menu3_fuc>
+                <input_msg>Número da tarefa para IA tratar: </input_msg>
+                <sugestao_msg>🤖 Passos sugeridos pela IA: </sugestao_msg>
+                <menu>Aceitar sugestão? (s/n): </menu>
+            </menu3_fuc>
+        </gerenciar_tarefas_menu>
+
+        <painel_ia_menu>
+            <exibir_cabecalho>ASSISTENTE DE IA PARA TPAC</exibir_cabecalho>
+            <msg1>Peça ajuda para simplificar enunciados, organizar rotinas ou tirar dúvidas.</msg1>
+            <msg2>Digite 'sair' para retornar.</msg2>
+
+            <input_msg>Você: </input_msg>
+            <leave_msg>'sair'</leave_msg>
+
+            <IA_pensando>🤖 Processando sem ambiguidades...</IA_pensando>
+            <Assistente_modo>[Assistente - Modo </Assistente_modo>
+
+        </painel_ia_menu>
+
+        <painel_principal_menu>
+            <exibir_cabecalho>PAINEL DO USUÁRIO: </exibir_cabecalho>
+            <menu>1. Atividades Diárias\n2. Atividades Educacionais\n3. 🤖 Central de IA\n4. Logout"</menu>
+            <input_msg>Escolha: </input_msg>
+
+            <menu1_fuc>
+                <parametro1>tarefas_diarias</parametro1>
+                <parametro2>ROTINA DIÁRIA</parametro2>
+            </menu1_fuc>
+
+            <menu2_fuc>
+                <parametro1>tarefas_educacionais</parametro1>
+                <parametro2>ESTUDOS E EDUCAÇÃO</parametro2>
+            </menu2_fuc>
+        </painel_principal_menu>
+    </ui.menus>
+</IAmigo>
