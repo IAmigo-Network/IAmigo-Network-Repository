@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<IAmigo>
+  <main.py>
+    <exibir_titulo_subtitulo>
+      <subtitulo>TDH Assistant</subtitulo>
+    </exibir_titulo_subtitulo>
+    <opções_menu_principal>
+      <menu1>1. Have we already met?</menu1>
+      <menu2>2. (Thinking something stops here)</menu2>
+      <menu3>3. See you later!</menu3>
+      <input_msg>Choose an option:</input_msg>
+    </opções_menu_principal>
+    <menu1_fuc>
+      <opcoes_menu>
+        <menu1>1. Yes</menu1>
+        <menu2>2. No</menu2>
+      </opcoes_menu>
+      <retorno>
+        <not_dados>No profiles saved.  Create one first!  (Enter)</not_dados>
+        <perfis>Profiles:</perfis>
+        <eu_sou>I am:</eu_sou>
+        <perfis_notfound>Profile not found!  (Enter)</perfis_notfound>
+      </retorno>
+    </menu1_fuc>
+    <menu3_fuc>See you soon!</menu3_fuc>
+  </main.py>
+  <ui.menus>
+    <criar_usuario_menu>
+      <exibir_cabecalho>CREATE NEW PROFILE</exibir_cabecalho>
+      <nome_usuario>
+        <input_msg>Enter the user name:</input_msg>
+        <not_nome_or_nome_in_dados>Invalid or existing name.  Press Enter.</not_nome_or_nome_in_dados>
+      </nome_usuario>
+      <preferencia_comunicacao>
+        <titulo>Communication Preferences</titulo>
+        <opcoes_menu>
+          <menu1>1. Short and direct step by step (Recommended for TPAC)</menu1>
+          <menu2>2. Detailed and explanatory</menu2>
+          <input_msg>Option:</input_msg>
+        </opcoes_menu>
+        <return>Profile [{name}] created!  Press Enter.</return>
+      </preferencia_comunicacao>
+    </criar_usuario_menu>
+    <gerenciar_tarefas_menu>
+      <not_tarefas>[No pending tasks.]</not_tarefas>
+      <menu>1. Create Task |  2. Toggle Status |  3. 🤖 Dismember with AI |  4. Back"</menu>
+      <input_msg>Choose an option:</input_msg>
+      <menu1_fuc>
+        <input_msg>Task name:</input_msg>
+      </menu1_fuc>
+      <menu2_fuc>
+        <input_msg>Task number:</input_msg>
+      </menu2_fuc>
+      <menu3_fuc>
+        <input_msg>Task number for AI to handle:</input_msg>
+        <sugestao_msg>🤖 Steps suggested by AI:</sugestao_msg>
+        <menu>Accept suggestion?  (y/n):</menu>
+      </menu3_fuc>
+    </gerenciar_tarefas_menu>
+    <painel_ia_menu>
+      <exibir_cabecalho>AI ASSISTANT FOR TPAC</exibir_cabecalho>
+      <msg1>Ask for help to simplify statements, organize routines or answer questions.</msg1>
+      <msg2>Type 'exit' to return.</msg2>
+      <input_msg>You:</input_msg>
+      <leave_msg>'leave'</leave_msg>
+      <IA_pensando>🤖 Processing without ambiguities...</IA_pensando>
+      <Assistente_modo>[Wizard - Mode</Assistente_modo>
+    </painel_ia_menu>
+    <painel_principal_menu>
+      <exibir_cabecalho>USER PANEL:</exibir_cabecalho>
+      <menu>1. Daily Activities
+2.  Educational Activities
+3.  🤖 AI Center
+4.  Logout"</menu>
+      <input_msg>Choose:</input_msg>
+      <menu1_fuc>
+        <parametro1>daily_tasks</parametro1>
+        <parametro2>DAILY ROUTINE</parametro2>
+      </menu1_fuc>
+      <menu2_fuc>
+        <parametro1>educational_tasks</parametro1>
+        <parametro2>STUDIES AND EDUCATION</parametro2>
+      </menu2_fuc>
+    </painel_principal_menu>
+  </ui.menus>
+</IAmigo>

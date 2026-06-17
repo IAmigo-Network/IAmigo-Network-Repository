@@ -1,8 +1,16 @@
+from pathlib import Path
+from os import getcwd
+import configparser
 import xmltodict
 
 def load_language():
-    
-    xml_path = r'C:\Users\davi56961306\Desktop\IAmigo\language\PT-BR.xml'
+
+    config_path = Path(__file__) / "data" / "config.ini"
+    config = configparser.ConfigParser()
+    config.read(str(config_path))
+
+    xml_path = Path(getcwd()) / "language" / "language_xml" / config['localization']['language']
+    print(xml_path)
 
     with open(xml_path, 'r', encoding='utf-8') as xml_file:
         xml_content = xml_file.read()
@@ -11,4 +19,5 @@ def load_language():
     strings = strings["IAmigo"]
     return strings
 
-print(load_language())
+strings = load_language()
+print(strings)
