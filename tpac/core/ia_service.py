@@ -3,7 +3,7 @@ from google import genai
 from google.genai import types
 
 API_KEY = os.environ.get("GEMINI_API_KEY")
-client = genai.Client() if API_KEY else None
+client = genai.Client(api_key=API_KEY) if API_KEY else None
 
 MODELO_GEMINI = "gemini-2.5-flash"
 
