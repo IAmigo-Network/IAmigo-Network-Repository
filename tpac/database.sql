@@ -42,7 +42,7 @@ CREATE TABLE tarefas (
 
     CONSTRAINT fk_tarefas_usuario
         FOREIGN KEY (usuario_id)
-        REFERENCES usuario(id)
+        REFERENCES usuarios(id)
         ON DELETE CASCADE
 );
 -- ============================================================
