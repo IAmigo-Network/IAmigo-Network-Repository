@@ -1,3 +1,5 @@
+
+
 import random
 from data.data_manager import carregar_dados
 from ui.menus import criar_usuario_menu, painel_principal_menu
